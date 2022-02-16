@@ -1,0 +1,9 @@
+{:deps  true
+ :nrepl {:port 7002}
+ :builds
+        {:app {:target     :react-native
+               :init-fn    cs-starter.core/init
+               :output-dir "src/app"
+               :devtools   {:autoload   true
+                            ;; :after-load steroid.rn.core/reload
+                            }}}}

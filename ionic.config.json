@@ -1,0 +1,7 @@
+{
+  "name": "cs-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
